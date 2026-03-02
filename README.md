@@ -123,4 +123,19 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7"
 
 6. Data structures are provided in [DATASET_STRUCTURE.md](data_prepare/DATASET_STRUCTURE.md)
 
+## Citation
+
+```bibtex
+@misc{wang20263dxtalkerunifyingidentitylip,
+      title={3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars}, 
+      author={Zhongju Wang and Zhenhong Sun and Beier Wang and Yifu Wang and Daoyi Dong and Huadong Mo and Hongdong Li},
+      year={2026},
+      eprint={2602.10516},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.10516}, 
+}
+```
+
+
 
