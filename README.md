@@ -1,5 +1,5 @@
 # **3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars**
- <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a> <a href='http://arxiv.org/abs/2602.10516'><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2602.10516-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2602.10516"></a> <a href='https://engineeringai-lab.github.io/3DXTalker.github.io/'><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-blue?logo=github&labelColor=black&link=https%3A%2F%2Fraineggplant.github.io%2FDiffPoseTalk"></a> <a href="https://huggingface.co/datasets/EngineeringAI-LAB/3DTalkingDataset"><img alt="HF Dataset" src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+ <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a> <a href='http://arxiv.org/abs/2602.10516'><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2602.10516-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2602.10516"></a> <a href='https://engineeringai-lab.github.io/3DXTalker/'><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-blue?logo=github&labelColor=black&link=https%3A%2F%2Fengineeringai-lab.github.io%2F3DXTalker%2F"></a> <a href="https://huggingface.co/datasets/EngineeringAI-LAB/3DTalkingDataset"><img alt="HF Dataset" src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
 
 ![teaser](teaser.png)
 
@@ -136,6 +136,5 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7"
       url={https://arxiv.org/abs/2602.10516}, 
 }
 ```
-
 
 
