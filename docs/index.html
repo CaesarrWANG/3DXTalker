@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars">
+  <meta name="keywords" content="3D facial animation, speech-driven animation, talking avatars, identity modeling">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T47ZCSTXZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5T47ZCSTXZ');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-body" style="padding-top: 2em;">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars</h1>
+            <div class="is-size-3 publication-venue">
+              
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                Zhongju Wang<sup>1</sup>,</span>
+              <span class="author-block">
+                Zhenhong Sun<sup>2</sup>,</span>
+              <span class="author-block">
+                Beier Wang<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Yifu Wang<sup>3</sup>,
+              </span>
+              <span class="author-block">
+                Daoyi Dong<sup>4</sup>,
+              </span>
+              <span class="author-block">
+                Huadong Mo<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Hongdong Li<sup>2</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of New South Wales,</span>
+              <span class="author-block"><sup>2</sup>Australian National University,</span>
+              <span class="author-block"><sup>3</sup>Vertex Lab,</span>
+              <span class="author-block"><sup>4</sup>University of Technology Sydney</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="http://arxiv.org/abs/2602.10516" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/EngineeringAI-LAB/3DXTalker"
+                   class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- Hugging Face Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/EngineeringAI-LAB/3DTalkingDataset"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <!-- Option A: use HF emoji -->
+                      🤗
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                  <!-- <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="columns is-centered is-multiline">
+          <div class="column is-full">
+            <img src="./static/images/teaser_v4.png" alt="3DXTalker teaser" style="width: 100%; height: auto;">
+          </div>
+          <div class="column is-full">
+            <video autoplay muted loop playsinline controls style="width: 100%;">
+              <source src="./static/videos/demo_A.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="column is-full">
+            <video autoplay muted loop playsinline controls style="width: 100%;">
+              <source src="./static/videos/demo_B.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="content has-text-centered">
+          <p>
+            <span class="dnerf">3DXTalker</span> generates identity-consistent, expressive 3D talking avatars from a single reference image and speech audio, achieving accurate lip synchronization, expressive emotion control, and natural head-pose dynamics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Audio-driven 3D talking avatar generation is increasingly important in virtual communication, digital humans, and interactive media, where avatars must preserve identity, synchronize lip motion with speech, express emotion, and exhibit lifelike spatial dynamics, collectively defining a broader objective of <i>expressivity</i>. However, achieving this remains challenging due to insufficient training data with limited subject identities, narrow audio representations, and restricted explicit controllability. In this paper, we propose 3DXTalker, an expressive 3D talking avatar through data-curated identity modeling, audio-rich representations, and spatial dynamics controllability. 3DXTalker enables scalable identity modeling via 2D-to-3D data curation pipeline and disentangled representations, alleviating data scarcity and improving identity generalization. Then, we introduce frame-wise amplitude and emotional cues beyond standard speech embeddings, ensuring superior lip synchronization and nuanced expression modulation. These cues are unified by a flow-matching-based transformer for coherent facial dynamics. Moreover, 3DXTalker also enables natural head-pose motion generation while supporting stylized control via prompt-based conditioning. Extensive experiments show that 3DXTalker integrates lip synchronization, emotional expression, and head-pose dynamics within a unified framework, achieves superior performance in 3D talking avatar generation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Method. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method</h2>
+          <img src="./static/images/xtalker3D.png" alt="3DXTalker pipeline">
+          <h2 class="subtitle has-text-centered">Overview of the 3DXTalker framework.</h2>
+        </div>
+      </div>
+      <!--/ Method. -->
+
+      <!-- Emotion Control -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Emotion Control</h2>
+          <div class="columns is-centered is-multiline">
+            <div class="column is-one-third">
+              <video autoplay muted loop playsinline controls style="width: 100%;">
+                <source src="./static/videos/C_Emotion/3DXTalker_happy.mp4" type="video/mp4">
+              </video>
+              <p class="has-text-centered"><strong>Happy</strong></p>
+            </div>
+            <div class="column is-one-third">
+              <video autoplay muted loop playsinline controls style="width: 100%;">
+                <source src="./static/videos/C_Emotion/3DXTalker_sad.mp4" type="video/mp4">
+              </video>
+              <p class="has-text-centered"><strong>Sad</strong></p>
+            </div>
+            <div class="column is-one-third">
+              <video autoplay muted loop playsinline controls style="width: 100%;">
+                <source src="./static/videos/C_Emotion/3DXTalker_angry.mp4" type="video/mp4">
+              </video>
+              <p class="has-text-centered"><strong>Angry</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Emotion Control -->
+
+      <!-- Head Pose -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Head Pose Control</h2>
+          <video autoplay muted loop playsinline controls style="width: 100%;">
+            <source src="./static/videos/D_HeadPose/3DXTalker_HeadPose.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Head Pose -->
+
+      <!-- Camera Movements -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Camera Movements</h2>
+          <video autoplay muted loop playsinline controls style="width: 100%;">
+            <source src="./static/videos/E_CameraMovements/3DXTalker_CameraMovements.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Camera Movements -->
+
+      <!-- Wan Render -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Downstream Application</h2>
+          <div class="columns is-centered is-multiline">
+            <div class="column is-full">
+              <video autoplay muted loop playsinline controls style="width: 100%;">
+                <source src="./static/videos/G_WanRender/G1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column is-full">
+              <video autoplay muted loop playsinline controls style="width: 100%;">
+                <source src="./static/videos/G_WanRender/G2.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Wan Render -->
+    </div>
+  </section>
+
+  <!-- Uncomment when video is available
+  <section class="hero is-light is-small">
+    <div class="container is-max-desktop" style="width: 100%;">
+      <div class="hero-body">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Video</h2>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section class="section" id="Citation">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Citation</h2>
+      <pre><code>@misc{wang20263dxtalkerunifyingidentitylip,
+      title={3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars}, 
+      author={Zhongju Wang and Zhenhong Sun and Beier Wang and Yifu Wang and Daoyi Dong and Huadong Mo and Hongdong Li},
+      year={2026},
+      eprint={2602.10516},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={http://arxiv.org/abs/2602.10516}, 
+}</code></pre>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- <div class="content has-text-centered">
+        <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div> -->
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
